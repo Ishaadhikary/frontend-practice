@@ -25,6 +25,12 @@ p{
     color:gray;
 }
 
+.author{
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+    color: rgb(50, 2, 96);
+}
 footer{
     text-align: center;
 }
