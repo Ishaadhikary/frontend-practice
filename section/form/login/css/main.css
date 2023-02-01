@@ -1,0 +1,116 @@
+body{
+    background-color: #D4F1F4; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    overflow:visible;
+    margin-bottom: 10rem;
+    color: #011d2a;
+    font-size: 15pt;
+}
+
+.navbarbg{
+    text-align: left;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    margin-bottom: 5rem;
+    /*background: rgba(102, 170, 181, 0.22);*/
+    overflow: hidden;
+    margin-top: 0rem;
+    width: 100%;
+    height: max-content;
+    word-spacing: 3rem;
+}
+
+
+.rightalign{
+    float: right;
+    margin-right: 1rem;
+}
+
+button{
+    position: relative;
+    width: max-content;
+    height: max-content;
+    background: #05445E;
+    border-radius: 7px;
+    margin-right: 100srem;
+    
+}
+.lightcolor{
+    color: #D4F1F4;
+}
+h1,h2{
+    text-align: center;
+}
+a{
+    color: #011d2a;
+    text-decoration: none;
+    font-style: bold;
+
+}
+
+a:hover{
+    color:#75E6DA;
+}
+
+
+image{
+    background: url(images/Arrow.png);
+    background-position:center top;
+    background-repeat: repeat;
+    width: 100%;
+    height: 250px;
+  }
+
+.container{
+        position: relative;
+        text-align: right;
+        margin-bottom: 0rem;
+        margin-right:20rem ;
+
+}
+
+.heading{
+    font-size:40pt;
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+.subscribeBar input{
+    margin-top: 2rem;
+    width: 50%;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #f8fafa;
+    
+
+    
+}
+
+input{
+    margin-top: 2rem;
+    color: #D4F1F4;
+    background-color: #05445E;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    
+}
+p{
+    margin-top: 2rem;
+    font-size: 15pt;
+}
+/*input{
+    color: #D4F1F4;
+    background-color: #05445E;
+    border: none;
+    }*/
+/*
+Background: 
+Font Color: #05445E
+Hyperlink color: #189AB4
+HyperLink hover color: #189AB4
+Background color: #189AB4
+*/

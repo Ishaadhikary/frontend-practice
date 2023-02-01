@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Sign-Up Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <form action="http://www.example.com/login.php" method="post">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <table width="1000">
+                <tr>
+                    <td width="150">Username</td>
+                    <td width="150"><input type="text" name="username" placeholder="Jane Doe" maxlength="30" size="30" required="required" ></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" name="email" placeholder="abc@gmail.com" required="required"></td>
+                </tr>
+                <tr>
+                    <td>Pasword</td>
+                    <td><input type="password" placeholder="password" required="required"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <input type="submit" name="submit" value="Sign-Up">
+        </form>
+        <p>Don't have a account yet? <a href="signin.html">Sign-In</a></p>
+    <p>Back to home page<a href="index.html" >Home Page</a>
+</body>
+</html>
