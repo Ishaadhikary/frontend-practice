@@ -1,0 +1,36 @@
+body{
+    font-family:'Georgia', 'Arial Narrow', Arial, sans-serif;
+    font-style:normal;
+    background:#FFFBF5;
+}
+h1{
+    margin-left:10rem;
+    margin-right:45rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: rgb(50, 2, 96);
+}
+
+p{
+    font-family:'Georgia' 'Arial Narrow', Arial, sans-serif;
+    margin-bottom:1.5rem;
+    margin-left:10rem;
+    margin-right: 45rem;
+}
+
+.quote{
+    font-style: italic;
+    font-family: 'Georgia', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color:gray;
+}
+
+.author{
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+    color: rgb(50, 2, 96);
+}
+footer{
+    text-align: center;
+}
