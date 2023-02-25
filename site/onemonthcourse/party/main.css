@@ -1,0 +1,23 @@
+body{
+    background: #e2f7e8;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-family:papyrus;
+    color: #3ca47e;
+    font-size: 130px;
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    font-family: papyrus;
+    color: #68ab92;
+}
+
+img{
+    width: 500px;
+}

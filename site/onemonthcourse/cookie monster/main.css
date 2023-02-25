@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url(images/cookie-monster.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    }
+
+h1{
+    font-size: 60px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+    h2{
+    background: rgb(148, 148, 219);
+    text-align: left;
+    color:  rgb(46, 42, 42);
+    border-radius: 5px;
+    padding-left: 5px;
+    width: 370px;
+}
+
+.leftcontent{
+    text-align: left;
+    width:400px ;
+    background: rgb(46, 42, 42);
+    color: rgb(249, 240, 225)    ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px;
+}
+
+p{
+    width: 370px;
+}
+a{
+    text-decoration: none;
+    color:rgb(148, 148, 219)
+}
+
+.icon{
+    padding: 5px;
+}
+
