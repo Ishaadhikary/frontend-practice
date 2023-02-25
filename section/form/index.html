@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1 style="text-align: center;">Basic Form Using HTML</h1>
+    <fieldset border="1"  style="margin-left: auto;margin-right: auto;">
+        <legend style="text-align:center">Sign-Up Requirements</legend>
+    <table width="1000" >
+    <form action="http://www.example.com/login.php" method="post">
+        <tr>
+            <td width="250">Username:  </td>
+            <td width="250"><input type="text" name="username" required="required" size="15" maxlength="30"></td> 
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" name="email" size="30" maxlength="50" required="required"></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" name="password" size="15" maxlength="40" required="required"></td>
+        </tr>
+        <tr>
+            <td>How is your expreience so far?</td>
+            <td><textarea name="comment" placeholder="Enter your experience here"></textarea> </td>
+        </tr>
+        <tr>
+            <td>Which gender do you belong to?</td>
+            
+            <td><input type="radio" name="gender" value="male">Male</td>
+            <td><input type="radio" name="gender" value="female">Female</td>
+            <td><input type="radio" name="gender" value="nonbinary">Non-binanry</td>
+        </tr>
+        <tr>
+            <td>Enter your birthdate:</td>
+            <td><input type="date" name="date"></td>
+        </tr>
+        <tr>
+            <td>Mention your Hobbies:</td>
+            <td><input type="checkbox" name="hobbies" value="swimming">Swimming</td>
+            <td><input type="checkbox" name="hobbies" value="dancing">Dancing</td>
+            <td><input type="checkbox" name="hobbies" value="singing">Singing</td>
+            <td><input type="checkbox" name="hobbies" value="reading">Reading</td>
+        </tr>
+        <tr>
+            <td>Which device are you using while filling this form?</td>
+            <td>
+                <select name="device">
+                    <option value="android">Android</option>
+                    <option value="iphone">iPhone</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Enter your profile picture here:</td>
+            <td><input type="file" name="profilePicture"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" name="submit"></td>
+        </tr>
+        </form>
+    </table>
+    </fieldset>
+</body>
+</html>

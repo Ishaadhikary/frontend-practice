@@ -1,0 +1,136 @@
+body{
+    padding: 0;
+    background-color:rgba(212, 241, 244, 0.35); 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    overflow:visible;
+    margin-bottom: 10rem;
+    color: #011d2a;
+    font-size: 15pt;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 0rem ;
+}
+
+.navbarbg{
+    padding: 6px;
+    text-align: left;
+    margin-bottom: 5rem;
+    /*background: hsla(188, 35%, 55%, 0.22);*/
+    overflow: auto;
+    width: 100%;
+    height: max-content;
+    word-spacing: 3rem;
+}
+
+
+.rightalign{
+    float: right;
+    margin-right: 1rem;
+}
+
+button{
+    position: relative;
+    width: max-content;
+    height: max-content;
+    background: #05445E;
+    border-radius: 7px;
+}
+
+.lightcolor{
+    color: #D4F1F4;
+}
+h1,h2{
+    text-align: center;
+}
+
+a{
+    color: #011d2a;
+    text-decoration: none;
+    font-style: bold;
+
+}
+
+a:hover{
+    color:rgb(24, 154, 180);;
+}
+/*.navbarbg a.active{
+    background: rgb(24, 154, 180);;
+    color: #D4F1F4;
+    padding: 6px;
+    margin-left: 0rem;
+}
+*/
+
+
+
+image{
+    background: url(images/Arrow.png);
+    background-position:center top;
+    background-repeat: repeat;
+    width: 100%;
+    height: 250px;
+  }
+
+.container{
+        position: relative;
+        text-align: right;
+        margin-bottom: 0rem;
+        margin-right:20rem ;
+
+}
+
+.heading{
+    font-size:40pt;
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.subscribeBar input{
+    margin-top: 2rem;
+    width: 50%;
+    height: 30px;
+    border-radius: 15px;
+    background-color: white;    
+}
+
+input{
+    margin-top: 2rem;
+    color: #D4F1F4;
+    background-color: #05445E;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    
+}
+
+p{
+    margin-top: 2rem;
+    font-size: 15pt;
+    color:  rgb(24, 154, 180);
+}
+
+/*
+Background: 
+Font Color: #05445E
+Hyperlink color: #189AB4
+HyperLink hover color: #189AB4
+Background color: #189AB4
+*/
+
+footer{
+    position: fixed;
+    margin-top: 15rem;
+    background: #05445E;
+    color:#dae4e8;
+    height: 30px;
+    background-repeat: no-repeat;
+    left: 0rem;
+    right: 0rem;
+    bottom: 0;
+    font-size: small;
+    text-align: center;
+}
